@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My primera web</title>
+    <!--stiluri in antetul fisierului html
+    <style>
+      p { padding: 5px;
+        background-color: blueviolet;
+
+
+        }
+      h3 {color: greenyellow;
+          background-color: black;
+          padding: 5px;
+
+         }
+    </style>
+    -->
+    <link rel="stylesheet" href="styleclass"
+</head>
+<body>
+  Hola mundo, Salut lume
+</body>
+ <!-- comanda -->
+ <!--eticheta de text-->
+ <!--titluri
+ h1, h2, h3, h4, h5,, h6
+ sunt folosite pentru a crea titluri si subtitluri.
+ -->
+  <!-- h1 se poate folosi doar odata pe pagina,
+   restul poate fi scris pe fiecare pagina de cate ori avem nevoie -->
+   <h1 id="post-title">Primul meu site</h1>
+
+   <h2 id="post-subtitle" style="background-color: lightcoral;">
+     Daca iti poti imagina si sa visezi poti sa creezi programul</h2></2>
+   <h3> Acesta este un h3</h3>
+
+   <!--Paragrafe (p)-->
+   <p class="description"> 
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae odit quasi, architecto numquam sed quisquam voluptatibus voluptatem, deleniti culpa excepturi amet dolorem vel praesentium! Nam sit error pariatur? Non, consectetur?
+   </p>
+   <!-- da importanta contentului textului-->
+    <p>
+    In cadrul acestui paragraf<strong> acest text este important</strong>
+    </p>
+    <p> In acest paragraf <em> de asemenea si acest text este important</em>
+    </p>
+    <!-- linkul -->
+     <a href="https://www.atigra.es" target="_blank"
+     >Cel mai bun site din lume</a
+      >
+      <!-- imnagini -->
+       <!--imagini externe-->
+       <img 
+         src="https://cdn.pixabay.com/photo/2019/07/22/10/11/darth-vader-4354735_1280.jpg" 
+         alt="Anakin Skywalker" width="250px"
+         />
+         <!-- imagini locale-->
+          <img src="img/ninosouza-star-wars-4045413_1920 (1).jpg" alt="starwars" width="450" />
+          <!--lista-->
+          <!--dezordonata-->
+          <h3>lista dezordonata</h3>
+          <ul>
+            <li>My friends</li>
+            <li>Bogdan</li>
+            <li>Roby</li>
+            <li>Gula</li>
+            <li>Julea</li>
+          </ul>S
+          <ol>
+            <h3>lista ordonata</h3>
+          <li>Obi wan kenobi</li>
+          <li>3PO</li>
+          <li>R2D2</li>
+          <li>Castraveti Murati</li>
+        </ol>
+        <!-- atribute globale -->
+         <!--
+        sintaxa : <open_label id="id unic" 
+          Def: genereaza un id al elementului html care directioneaza catre el
+          Atribut de clasa
+          Sintaxa :<open_label class="name_of_class"
+          Definitie:este un identificator de grup ce poate fi aplicatr mai multor elemente sau grupuri de elemente.Ideal pentru aplicarea uniforma a stilurilor sau atribuirea de modificari dintr-u n script -->
+
+          <!-- structurarea continutului -->
+           <!-- Containere -->
+            <!-- div - o cutie mare in care punem chestii ca sa le grupam
+              -->
+            <div class="article">
+               <div class="figure">
+                  <img src="https://cdn.pixabay.com/photo/2021/06/08/16/54/darth-vader-6321110_1280.png" alt="avem o imagine" width="250px">
+            </div>
+            <h3>titlul postarii</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur iusto praesentium autem quia! Voluptatem veritatis similique, qui animi impedit optio facilis unde, assumenda neque obcaecati accusamus corporis officia! Illum, atque.
+            </p>
+            </div>
+
+            <!-- 
+            span - este folosit pentru detalii grupand continutul in linie in cadrul altor elemente.Va permite sa aplicati stiluri fragmentelor de text sau componentelor mici fara a perturba fluxul documentului
+             -->
+            <p> este un <span class="text-descriptiv"> text descriptiv</span>dintr un paragraf
+            </p>
+
+
+
+<!-- HTML cu semnificatie -->
+ <header>
+  <figure id="logo">   
+      <img src="" alt="logo">
+  </figure>
+   <nav>
+    <ul>
+      <li>casa</li>
+      <li>blog</li>
+      <li>despre noi</li>
+     </ul>
+   </nav>
+ </header>
+<main>
+  <section id="hero">
+    <figure id="hero-background">
+      <img src="" alt="background hero">
+   </figure>
+          <div>
+             <h1> titlul paginii </h1>
+             <h2> subtitlul paginii </h2>
+             <button> trimite </button>
+          </div>
+       </section>
+         <section id="blog">
+           <article>
+              <figure>
+                  <img src="" alt="imaginea articolului">
+              </figure>
+              <h3> titlul postarii </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aut excepturi perspiciatis, aspernatur similique perferendis consequuntur ipsam maxime, reiciendis, ut consequatur voluptate mollitia atque fugiat deserunt porro repudiandae dignissimos possimus?
+              </p>
+           </article>
+         </section>
+     </main>
+        <footer>
+          <div id="left"> 
+              <h4>aboneaza-te</h4>
+          </div>
+            <div id="right">
+                <ul>
+                   <li>github</li>
+                   <li>instagram</li>
+               </ul>
+            </div>
+        </footer>
+
+        <!-- formular -->
+         <h3>formular</h3>
+         <form action="script.js" method="post">
+              <label for="name">Nume : </label>
+              <input type="text" id="name" name="Alex"
+              placeholder="scrie numele"
+              /> 
+
+              <label for="email">Email: </label>
+              <input type="email"
+               id="email"
+               name="email"
+               placeholder="scrie un email"
+               />
+              <label for="password">Parola</label>
+              <input type="password" 
+              id="password"
+              name="password" 
+              placeholder="scrie parola"/>
+              
+              <button type="submit">trimite</button>
+              <button type="reset">sterge</button>
+         </form>
+   </body>          
+</html>

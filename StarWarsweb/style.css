@@ -1,0 +1,26 @@
+/* Comentarii in CSS */
+/* Aplicarea stilurlor */
+/* sintaxe
+      selector { proprietatea : valoare;
+                 proprietatea : valoare;
+}
+      */
+      /* Cele mai bune stiluri in aplicarea  stilurilor: incepem de la primul element HTML in jos si de la stanga la dreapta.
+       */
+       h1 {
+        background-color: black;
+        color: blue;
+        text-align: center;
+        padding: 5px;
+
+       }
+       h3 {background-color: cornflowerblue;
+           color: honeydew;
+        }
+        
+        p {
+            font-style: italic;
+            color: chocolate;
+
+        }
+        
